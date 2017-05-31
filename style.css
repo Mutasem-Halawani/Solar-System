@@ -190,3 +190,419 @@ body {
    box-shadow: inset 0 0 30px 10px orange, 0 0 20px 4px orange;
     border-radius:100%;
 }
+
+
+.circules{
+  position:relative;
+}
+.circle1{
+   width:185px;
+   height:185px;
+   border:1px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:319px;
+   left:352px;
+}
+
+
+.mercury{
+  background: url("https://userscontent2.emaze.com/images/de1f3140-6f4e-4a67-9626-14c39a8f93a2/ecdcf3f9-8b51-47fa-993d-744d7f65b63a.png") no-repeat center;
+  width:15px;
+  height:15px;
+  position:absolute;
+  top:400px;
+  left:420px;
+  animation-name:mercury;
+  animation-duration:4s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  box-shadow: 0 0 10px 1px #C2A549, 0 0 20px 2px #BFB20E;
+  border-radius:100%;
+}
+
+
+@keyframes mercury{
+	from {
+   top:405px;
+  left:435px;
+		transform: rotate(0deg)
+		           translate(92px)
+		           rotate(0deg);
+	}
+	to {
+	     top:406px;
+  left:435px;
+		transform: rotate(-360deg)
+		           translate(92px) 
+		           rotate(360deg);
+	}
+}
+
+
+.circle2{
+   width:260px;
+   height:260px;
+   border:2px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:282px;
+   left:315px;
+}
+
+.venus{
+  background: url("http://drenil.com/data/img/venus.png") no-repeat center;
+  width:25px;
+  height:25px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:venus;
+  animation-duration:9s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+  
+}
+
+@keyframes venus{
+	from {
+   top:400px;
+  left:435px;
+		transform: rotate(0deg)
+		           translate(130px)
+		           rotate(0deg);
+	}
+	to {
+	     top:400px;
+  left:435px;
+		transform: rotate(-360deg)
+		           translate(130px) 
+		           rotate(360deg);
+	}
+}
+.circle3{
+    width:360px;
+   height:360px;
+   border:3px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:230px;
+   left:265px;
+}
+
+.earth{
+background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfXpeH4js-AGOLoMzyL5x4Aqfstqpy0MtqiVLgtLXkU51iQzc5hA") no-repeat center;
+  width:25px;
+  height:25px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:earth;
+  animation-duration:18s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+}
+
+@keyframes earth{
+	from {
+   top:395px;
+  left:435px;
+		transform: rotate(0deg)
+		           translate(181px)
+		           rotate(0deg);
+	}
+	to {
+	     top:395px;
+  left:435px;
+		transform: rotate(-360deg)
+		           translate(181px) 
+		           rotate(-360deg);
+	}
+}
+
+.moon{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0_DRfGBdEDwQALlITk_ZpHbow1LgWnd7a64TwfmiHutd2Xto3ebl39w") no-repeat center;
+  width:10px;
+  height:10px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:moon;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+  
+}
+
+@keyframes moon{
+	from {
+   top:7px;
+  left:7px;
+		transform: rotate(0deg)
+		           translate(22px)
+		           rotate(0deg);
+	}
+	to {
+	     top:7px;
+  left:7px;
+		transform: rotate(-360deg)
+		           translate(22px) 
+		           rotate(360deg);
+	}
+}
+.circle4{
+      width:460px;
+   height:460px;
+   border:1px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:180px;
+   left:215px;
+}
+
+.mars{
+    background: url("https://openclipart.org/image/2400px/svg_to_png/247374/Mars.png") no-repeat center;
+  width:20px;
+  height:20px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:mars;
+  animation-duration:30s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+  
+}
+
+@keyframes mars{
+	from {
+   top:399px;
+  left:435px;
+		transform: rotate(0deg)
+		           translate(230px)
+		           rotate(0deg);
+	}
+	to {
+	     top:399px;
+  left:435px;
+		transform: rotate(-360deg)
+		           translate(230px) 
+		           rotate(360deg);
+	}
+}
+
+.circle5{
+      width:510px;
+   height:510px;
+   border:1px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:155px;
+   left:190px;
+}
+
+.jupiter{
+    background: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSrj53G94sKAudZlWjimPXZdiQeqrZ4odQOsecz8y7DR7cfK_K6lQ") no-repeat center;
+  width:15px;
+  height:15px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:jupiter;
+  animation-duration:45s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+  
+}
+
+@keyframes jupiter{
+	from {
+   top:401px;
+  left:437px;
+		transform: rotate(0deg)
+		           translate(255px)
+		           rotate(0deg);
+	}
+	to {
+	     top:401px;
+  left:437px;
+		transform: rotate(-360deg)
+		           translate(255px)
+		           rotate(360deg);
+	}
+}
+
+.circle6{
+       width:560px;
+   height:560px;
+   border:1px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:130px;
+   left:165px;
+}
+
+.saturn{
+    background: url("http://real28.ru/vozrozhdeniye/images/planet-saturn.png") no-repeat center;
+  width:15px;
+  height:15px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:saturn;
+  animation-duration:50s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+  
+}
+
+@keyframes saturn{
+	from {
+   top:404px;
+  left:439px;
+		transform: rotate(0deg)
+		           translate(280px)
+		           rotate(0deg);
+	}
+	to {
+	     top:404px;
+  left:439px;
+		transform: rotate(-360deg)
+		           translate(280px) 
+		           rotate(360deg);
+	}
+}
+
+.circle7{
+       width:610px;
+   height:610px;
+   border:1px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:105px;
+   left:140px;
+}
+
+.uranus{
+    background: url("data:image/jpeg;base64,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") no-repeat center;
+  width:10px;
+  height:10px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:uranus;
+  animation-duration:60s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+  
+}
+
+@keyframes uranus{
+	from {
+   top:405px;
+  left:439px;
+		transform: rotate(0deg)
+		           translate(305px)
+		           rotate(0deg);
+	}
+	to {
+	     top:405px;
+  left:439px;
+		transform: rotate(-360deg)
+		           translate(305px) 
+		           rotate(360deg);
+	}
+}
+
+.circle8{
+       width:670px;
+   height:670px;
+   border:1px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:75px;
+   left:110px;
+}
+
+
+.neptune{
+    background: url("http://icons.iconseeker.com/png/fullsize/solar-system/neptune.png") no-repeat center;
+  width:10px;
+  height:10px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:neptune;
+  animation-duration:65s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+  
+}
+
+@keyframes neptune{
+	from {
+   top:405px;
+  left:439px;
+		transform: rotate(0deg)
+		           translate(336px)
+		           rotate(0deg);
+	}
+	to {
+	     top:405px;
+  left:439px;
+		transform: rotate(-360deg)
+		           translate(336px) 
+		           rotate(360deg);
+	}
+}
+
+.circle9{
+       width:700px;
+   height:700px;
+   border:2px solid #CAA178;
+   border-radius:100%;
+   position: absolute;
+   top:60px;
+   left:95px;
+}
+
+
+.pluto{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/9/94/Pluto-transparent.png") no-repeat center;
+  width:7px;
+  height:7px;
+  position:absolute;
+  top:340px;
+  left:375px;
+  animation-name:pluto;
+  animation-duration:70s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+  border-radius:100%;
+  
+}
+
+@keyframes pluto{
+	from {
+   top:407px;
+  left:442px;
+		transform: rotate(0deg)
+		           translate(350px)
+		           rotate(0deg);
+	}
+	to {
+	     top:407px;
+  left:442px;
+		transform: rotate(-360deg)
+		           translate(350px) 
+		           rotate(360deg);
+	}
+}
