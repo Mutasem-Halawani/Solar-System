@@ -606,3 +606,13 @@ background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfXpeH4js
 		           rotate(360deg);
 	}
 }
+
+
+footer{
+    color:red;
+    position:fixed;
+    top:380px;
+    bottom:0;
+    right:350px;
+        
+}
